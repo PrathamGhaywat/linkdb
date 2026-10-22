@@ -1,0 +1,1 @@
+As of now we are not accepting any contributions from outside the core team. Please feel free to open an issue if there is any problem.
