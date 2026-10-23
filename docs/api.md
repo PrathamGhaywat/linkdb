@@ -23,6 +23,7 @@ Schema:
   "posts": [
     {
 	  "id": 2304843583
+	  "author": 232492,
 	  "title": "Why linkdb rules the world",
 	  "describtion": "Read about the linkdb blogging service",
 	  "date": "2002-06-01 04-54-3",
@@ -41,6 +42,7 @@ Schema:
 ```JSON
 {
   "id": 2304843583
+  "author": 342432,
   "title": "Why linkdb rules the world",
   "describtion": "Read about the linkdb blogging service",
   "date": "2002-06-01 04-54-3",
