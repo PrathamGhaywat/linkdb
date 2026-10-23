@@ -51,7 +51,7 @@ Schema:
 ```
 
 ### Users
-`GET`: `/users?id=n`
+`GET`: `/users/{id}
 
 - `id`: Get user with this uid
 
