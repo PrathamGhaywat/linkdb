@@ -22,6 +22,7 @@ Schema:
   "amount": 4, // tends to equal section_size but may be less if there are not enough posts or may be zero if there are no posts in the section.	
   "posts": [
     {
+	  "id": 2304843583
 	  "title": "Why linkdb rules the world",
 	  "describtion": "Read about the linkdb blogging service",
 	  "date": "2002-06-01 04-54-3",
@@ -29,6 +30,21 @@ Schema:
 	}
 	// `amount` posts will follow
   ]
+}
+```
+
+`GET`: `/posts/{post-id}`
+
+Return the post of a specific id.
+
+Schema:
+```JSON
+{
+  "id": 2304843583
+  "title": "Why linkdb rules the world",
+  "describtion": "Read about the linkdb blogging service",
+  "date": "2002-06-01 04-54-3",
+  "link": "https://example.com/blog/osdfjs"
 }
 ```
 
