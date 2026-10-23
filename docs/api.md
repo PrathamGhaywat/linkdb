@@ -9,8 +9,9 @@ All routes in this section are prefixed wih `/v1/`
 V1 may still change and is in no way stable.
 
 ### Posts
-`GET`: `/posts?sort=top|bottom&using=likes|age&section=n&section_size=n`
+`GET`: `/posts?by=x|sort=top|bottom&using=likes|age&section=n&section_size=n`
 
+- `by`: only show posts from a specific user id. If unspecified, all posts are shown
 - `sort`: `top` means most-liked or newest posts while `bottom` means least-liked or oldest. Defaults to `top`.
 - `using`: sort by likes or age. Defaults to `likes`.
 - `section` and `section_size`: return `section_size` posts starting with `section` times `section_size`. Defaults to `1` and `50`.
@@ -36,7 +37,7 @@ Schema:
 
 - `id`: Get user with this uid
 
-Schema
+Schema:
 ```JSON
 {
   "name": "SyntaxError2505",
